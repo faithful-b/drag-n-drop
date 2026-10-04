@@ -1,0 +1,17 @@
+#main {
+  display: grid;
+  min-height: 100vh;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+  background-color: #ffffff;
+}
+
+div {
+  color: black;
+}
+
+h1 {
+  color: black;
+}

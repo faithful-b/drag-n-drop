@@ -1,0 +1,34 @@
+#sidePanel {
+  grid-column: span 1;
+  border: 5px solid black;
+  grid-row: span 3;
+}
+
+#canvas {
+  grid-column: span 2;
+  grid-row: span 2;
+  border: 5px solid black;
+}
+
+#bottomPanel {
+  grid-column: span 2;
+  grid-row: span 1;
+  border: 5px solid black;
+}
+
+h1, h2, h3, div {
+  color: black;
+}
+
+.bottomButton{
+  size: 20vh;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.bottomInput{
+  size: 20vh;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  color: black;
+}

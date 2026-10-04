@@ -1,0 +1,19 @@
+import fs from "fs";
+
+const jsonPath = "../elements.json"
+const data = fs.readFileSync(jsonPath, "utf8");
+const els = JSON.parse(data);
+
+console.log(els)
+
+-------------------------------------
+try {
+            const res = await axios.post('http://localhost:3000/api/el', stri.objectify());
+            console.log(res.data)
+        } catch(e) {
+            console.error(e)
+        }
+
+------------------------------------------------------------
+<input className="bottomInput" placeholder="Insert Tagname" onChange={(e) => {setInputTag(e.target.value);}}/><br />
+        <input className="bottomInput" placeholder="Insert Content" onChange={(e) => {setInputContent(e.target.value);}}/><br />
